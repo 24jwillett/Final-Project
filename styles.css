@@ -1,0 +1,97 @@
+/* Home Page Heading*/
+.mainhead{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    height: 90px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%; 
+    background-image: initial;
+    background-color: #222526;
+    box-shadow: rgba(0, 0, 0, 0.39) 0 40px 100px 0;
+    background: rgb(48, 46, 46);
+    overflow:visible;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 39%);
+    z-index: 2;
+    color: azure;
+}
+/* Sidebar */
+.sidebarnav{
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(48, 46, 46);
+    overflow-x: hidden;
+    padding-top: 20px;
+   
+}
+.sidebartext{
+     margin: 115px 25px 25px 25px;
+     
+}
+p{
+    margin-left: 25px; 
+    margin-right: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+h1, h2{
+    margin-right: 0%;
+    margin-left: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure
+}
+
+.homebody{
+    background: rgb(48, 46, 46);
+    bottom: 0;
+    color: #5a5a58;
+    left: 205px;
+    overflow: hidden;
+    position: absolute;
+    right: 25px;
+    top: 103px;
+    overflow: scroll;
+    padding-right: 25px;
+}
+
+.homevideo{
+     float: right;
+     padding-right: 5%;
+     padding-bottom: 10%;
+}
+li{
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rulesddbtn{
+    margin-left: 125px;
+}
+.rulesddpgs{
+    margin-left: 125px;
+}
+.homelink{
+    margin-left:25px;
+}
+table, th, td, tr{
+    border: 2px solid azure;
+    color: azure;
+    margin: 15px 15px 15px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    align-self: left;
+}
